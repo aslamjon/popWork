@@ -1,0 +1,151 @@
+header {
+    width: 100%;
+    min-height: 50vh;
+    padding-bottom: 150px;
+    background: url("../img/Frame.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+    nav {
+        background: rgba(255, 255, 255, 0.6) !important;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-sizing: border-box;
+        border-radius: 8px;
+        .navbar-collapse {
+            justify-content: flex-end;
+            .nav-item {
+                margin-left: 10px;
+                .nav-link {
+                    color: #222222 !important;
+                    transition: 0.3s;
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+                .login {
+                    background: rgba(17, 17, 17, 0.05);
+                    color: #111111;
+                    margin: 0 10px 0 0px;
+                }
+                .try {
+                    background: #111111;
+                    color: #fff;
+                }
+                .login,
+                .try {
+                    border-radius: 8px;
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .title {
+        margin-top: 10%;
+        font-weight: 700;
+        font-size: 60px;
+        letter-spacing: 0.8px;
+        text-align: center;
+        color: #111;
+        line-height: 72px;
+    }
+    .title2 {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+        color: #111111;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    form {
+        background: rgba(255, 255, 255, 0.85);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 4px 16px rgba(55, 53, 40, 0.15);
+        border-radius: 16px;
+        width: 400px;
+        height: 58px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        margin: 15px auto;
+        input {
+            width: 250px;
+            border: none;
+            outline: none;
+            height: 100%;
+            margin-left: 8px;
+            font-size: 18px;
+            &::placeholder {
+                font-size: 18px;
+                text-align: center;
+                color: rgba(black, 0.37);
+            }
+        }
+        a {
+            background: radial-gradient(92.4% 626.63% at 7.6% 21.88%, #c67af7 0%, #ff75c0 42.19%, #ffc95f 97.92%);
+            border-radius: 12px !important;
+            height: 48px !important;
+            width: 125px !important;
+            color: #fff !important;
+            padding-top: 11px !important;
+        }
+    }
+    .p {
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #111111;
+    }
+    .brend {
+        .row {
+            .col-md-2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    margin: 15px;
+                }
+            }
+        }
+    }
+    .message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 82px;
+            height: 100px;
+            margin-bottom: -220px;
+        }
+        .content {
+            max-width: 600px;
+            min-height: 180px;
+            background: #fefcfa;
+            box-shadow: 0px 4px 16px #f4e6d7;
+            border-radius: 16px 16px 16px 4px;
+            padding: 1.5rem 2rem 1.5rem 1.5rem;
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 577px){header{.message{img{margin-bottom: -280px;}}}}
+@media (max-width: 768px) {
+    header {
+        .title {
+            font-size: 40px;
+            line-height: 40px;
+            br {display: none;}
+        }
+        .title2{
+            font-size: 22px;
+            line-height: 25px;
+            br {display: none;}
+        }
+        form {
+            width: 100%;
+            input {width: 75%;padding-right: 10px;}
+            a {width: 35%;}
+        }
+    }
+}

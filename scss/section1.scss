@@ -1,0 +1,53 @@
+.section-1 {
+    background: url("../img/Desktop\ HD\ Copy.png");
+    background-repeat: no-repeat;
+    background-size: 100% 55%;
+    background-position: 0 bottom;
+    padding-bottom: 100px;
+    .content {
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 68px;
+        letter-spacing: 1.2px;
+        color: #111111;
+    }
+    .cs1 {
+        span {
+            background: #efdffd;
+            padding: 0 8px;
+        }
+    }
+    .cs2 {
+        margin-top: 6rem;
+        span {
+            background: #e5ffc7;
+        }
+    }
+    .cs3 {
+        span {
+            background: #fde49b;
+        }
+    }
+    .col-md-7 {
+        img {
+            width: 95%;
+        }
+    }
+    .center-row {
+        width: 100% !important;
+    }
+    .third-row {
+        width: 100% !important;
+    }
+}
+@media (max-width: 768px) {
+    .section-1 {
+        .content {
+            font-size: 35px !important;
+            line-height: 38px;
+        }
+        .cs1{margin-bottom: 20px;}
+        .cs2, .cs3{margin-top: 1.5rem;margin-bottom: 1.5rem;}
+        
+    }
+}
